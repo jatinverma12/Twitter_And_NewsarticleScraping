@@ -1,8 +1,5 @@
 [
-    {
-        "query": "profile URL",
-        "error": "Can't open URL: https://twitter.com/profile URL"
-    },
+    
     {
         "tweetsCount": 356,
         "followers": 1085,
