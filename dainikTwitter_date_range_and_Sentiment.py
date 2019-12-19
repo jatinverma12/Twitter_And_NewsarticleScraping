@@ -85,7 +85,7 @@ def get_user_info(username,date_since,date_until):
     print ("No of Followers:",user.followers_count)
     print ("No of Tweets :",user.statuses_count)
     print ("Website Link :",user.url)
-    with open('dainikSentiment.json', 'w') as f:
+    with open('dainikTwitter_date_range_and_Sentiment.json', 'w') as f:
                 json.dump(data, f, indent=2)
 
 date_since=input('From Date(YYYY-MM-DD) : ')
